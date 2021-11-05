@@ -4,6 +4,14 @@
   "description": "ESLint configuration for TypeScript",
   "author": "Vincent Batoufflet <vincent@batou.dev>",
   "license": "MIT",
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "javascript",
+    "prettier",
+    "typescript"
+  ],
+  "repository": "https://github.com/vbatoufflet/eslint-config-typescript",
   "main": "src/index.js",
   "scripts": {},
   "peerDependencies": {
