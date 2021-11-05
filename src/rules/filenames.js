@@ -1,6 +1,6 @@
 module.exports = {
     plugins: ["filenames"],
     rules: {
-        "filenames/match-regex": ["error", "^\\.?[a-z0-9]+(?:-?[a-z0-9]+){0,}$"],
+        "filenames/match-regex": ["error", "^(?:\\.?[a-z0-9]+(?:-?[a-z0-9]+){0,}){1,}$"],
     },
 };
