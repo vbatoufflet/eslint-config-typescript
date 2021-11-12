@@ -1,6 +1,13 @@
 Changelog
 =========
 
+0.3.0 - 2021-11-12
+------------------
+
+* Adapt "@typescript-eslint/explicit-function-return-type" to only check
+  functions which are part of a declaration
+* Remove "import/exports-last" rule
+
 0.2.0 - 2021-11-08
 ------------------
 
