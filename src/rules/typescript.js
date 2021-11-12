@@ -15,7 +15,7 @@ module.exports = {
             {assertionStyle: "as", objectLiteralTypeAssertions: "never"},
         ],
         "@typescript-eslint/consistent-type-definitions": ["error", "interface"],
-        "@typescript-eslint/explicit-function-return-type": "error",
+        "@typescript-eslint/explicit-function-return-type": ["error", {allowExpressions: true}],
         "@typescript-eslint/naming-convention": [
             "error",
             {selector: "enum", format: ["PascalCase"]},
