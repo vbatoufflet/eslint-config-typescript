@@ -2,7 +2,6 @@ module.exports = {
     extends: ["plugin:import/recommended", "plugin:import/typescript"],
     plugins: ["import"],
     rules: {
-        "import/exports-last": "error",
         "import/first": "error",
         "import/newline-after-import": "error",
         "import/no-extraneous-dependencies": "error",
