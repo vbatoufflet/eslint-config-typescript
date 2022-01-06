@@ -1,6 +1,14 @@
 Changelog
 =========
 
+0.4.0 - 2022-01-06
+------------------
+
+* Enable `sort-imports` rule
+* Enable `@typescript-eslint/method-signature-style` rule
+* Enable `@typescript-eslint/sort-type-union-intersection-members` rule
+* Adapt `@typescript-eslint/naming-convention` with type-like selectors
+
 0.3.0 - 2021-11-12
 ------------------
 
