@@ -17,6 +17,7 @@ module.exports = {
                 "newlines-between": "always",
             },
         ],
+        "sort-imports": ["error", {ignoreDeclarationSort: true}],
     },
     settings: {
         "import/internal-regex": "^~",
