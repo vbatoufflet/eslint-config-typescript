@@ -1,6 +1,11 @@
 Changelog
 =========
 
+0.4.1 - 2022-01-06
+------------------
+
+* Revert `@typescript-eslint/naming-convention` member-like selector
+
 0.4.0 - 2022-01-06
 ------------------
 
