@@ -3,11 +3,11 @@ module.exports = {
         node: true,
     },
     extends: [
-        "./rules/filenames",
         "./rules/import",
         "./rules/prettier",
         "./rules/style",
         "./rules/typescript",
+        "./rules/unicorn",
     ].map(require.resolve),
     parserOptions: {
         ecmaVersion: 2021,
