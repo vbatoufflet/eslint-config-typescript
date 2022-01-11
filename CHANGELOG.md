@@ -1,6 +1,12 @@
 Changelog
 =========
 
+0.5.0 - 2022-01-11
+------------------
+
+* Add stricter rules from eslint-plugin-unicorn
+* Remove `filenames/match-regex` rule and associated plugin
+
 0.4.1 - 2022-01-06
 ------------------
 
