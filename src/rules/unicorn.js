@@ -10,6 +10,7 @@ module.exports = {
         "unicorn/no-new-array": "off",
         "unicorn/no-null": "off",
         "unicorn/no-process-exit": "off",
+        "unicorn/numeric-separators-style": ["error", {onlyIfContainsSeparator: true}],
         "unicorn/prefer-dom-node-append": "off",
         "unicorn/prefer-module": "off",
         "unicorn/prefer-node-protocol": "off",
