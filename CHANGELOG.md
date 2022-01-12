@@ -1,6 +1,12 @@
 Changelog
 =========
 
+0.5.1 - 2022-01-12
+------------------
+
+* Adapt `unicorn/numeric-separators-style` to only handle numeric values
+  containing separators
+
 0.5.0 - 2022-01-11
 ------------------
 
