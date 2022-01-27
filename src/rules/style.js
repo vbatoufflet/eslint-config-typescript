@@ -2,6 +2,7 @@ module.exports = {
     extends: ["eslint:recommended"],
     rules: {
         "curly": ["error", "all"],
+        "default-case-last": "error",
         "eqeqeq": ["error", "always"],
         "lines-between-class-members": ["error", "always", {exceptAfterSingleLine: true}],
         "new-cap": "error",
