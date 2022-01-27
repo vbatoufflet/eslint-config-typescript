@@ -1,6 +1,14 @@
 Changelog
 =========
 
+0.6.0 - 2022-01-27
+------------------
+
+* Add "default-case-last" to style
+* Add padding line around classes, interfaces and types
+* Switch "lines-between-class-members", "no-duplicate-imports" and
+  "padding-line-between-statements" from style to their TypeScript extends
+
 0.5.1 - 2022-01-12
 ------------------
 
