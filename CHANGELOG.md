@@ -1,6 +1,11 @@
 Changelog
 =========
 
+0.6.1 - 2022-02-03
+------------------
+
+* Allow leading underscores for "variableLike" in "@typescript-eslint/naming-convention"
+
 0.6.0 - 2022-01-27
 ------------------
 
