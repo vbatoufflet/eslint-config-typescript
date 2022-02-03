@@ -26,7 +26,7 @@ module.exports = {
             "error",
             {selector: "enumMember", format: ["UPPER_CASE"]},
             {selector: "typeLike", format: ["PascalCase"]},
-            {selector: "variableLike", format: ["camelCase"]},
+            {selector: "variableLike", format: ["camelCase"], leadingUnderscore: "allow"},
         ],
         "@typescript-eslint/no-duplicate-imports": "error",
         "@typescript-eslint/no-explicit-any": "off",
