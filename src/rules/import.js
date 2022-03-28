@@ -1,6 +1,6 @@
 module.exports = {
     extends: ["plugin:import/recommended", "plugin:import/typescript"],
-    plugins: ["import"],
+    plugins: ["import", "unused-imports"],
     rules: {
         "import/first": "error",
         "import/newline-after-import": "error",
@@ -18,6 +18,7 @@ module.exports = {
             },
         ],
         "sort-imports": ["error", {ignoreDeclarationSort: true}],
+        "unused-imports/no-unused-imports": "error",
     },
     settings: {
         "import/internal-regex": "^~",

@@ -1,6 +1,6 @@
 {
   "name": "@batou.dev/eslint-config-typescript",
-  "version": "0.6.1",
+  "version": "0.5.2",
   "description": "ESLint configuration for TypeScript",
   "author": "Vincent Batoufflet <vincent@batou.dev>",
   "license": "MIT",
@@ -22,6 +22,7 @@
     "eslint-plugin-import": "^2.0.0",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-unicorn": "^40.0.0",
+    "eslint-plugin-unused-imports": "^2.0.0",
     "prettier": "^2.0.0"
   },
   "devDependencies": {
@@ -29,6 +30,7 @@
     "eslint-import-resolver-typescript": "^2.5.0",
     "eslint-plugin-import": "^2.25.2",
     "eslint-plugin-prettier": "^4.0.0",
-    "eslint-plugin-unicorn": "^40.0.0"
+    "eslint-plugin-unicorn": "^40.0.0",
+    "eslint-plugin-unused-imports": "^2.0.0"
   }
 }
