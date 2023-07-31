@@ -1,6 +1,14 @@
 Changelog
 =========
 
+0.8.0 - 2023-07-31
+------------------
+
+* Raise Prettier print width to 110
+* Drop no longer existing `@typescript-eslint/no-duplicate-imports` rule
+* Switch from `@typescript-eslint/sort-type-union-intersection-members` to
+  `@typescript-eslint/sort-type-constituents` rule
+
 0.7.0 - 2022-04-06
 ------------------
 
