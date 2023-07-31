@@ -8,7 +8,7 @@ module.exports = {
         "./rules/style",
         "./rules/typescript",
         "./rules/unicorn",
-    ].map(require.resolve),
+    ].map(v => require.resolve(v)),
     parserOptions: {
         ecmaVersion: 2021,
         sourceType: "module",

@@ -6,31 +6,33 @@
   "license": "MIT",
   "keywords": [
     "eslint",
-    "eslint-config",
+    "eslintconfig",
     "javascript",
     "prettier",
     "typescript"
   ],
   "repository": "https://github.com/vbatoufflet/eslint-config-typescript",
   "main": "src/index.js",
-  "scripts": {},
-  "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.0.0",
-    "@typescript-eslint/parser": "^5.0.0",
-    "eslint": "^8.0.0",
-    "eslint-import-resolver-typescript": "^3.5.2",
-    "eslint-plugin-import": "^2.0.0",
-    "eslint-plugin-prettier": "^4.0.0",
-    "eslint-plugin-unicorn": "^44.0.2",
-    "eslint-plugin-unused-imports": "^2.0.0",
-    "prettier": "^2.0.0"
+  "scripts": {
+    "lint": "eslint --ext .js src/"
   },
   "devDependencies": {
     "eslint": "^8.1.0",
     "eslint-import-resolver-typescript": "^3.0.0",
     "eslint-plugin-import": "^2.25.2",
-    "eslint-plugin-prettier": "^4.0.0",
-    "eslint-plugin-unicorn": "^44.0.0",
-    "eslint-plugin-unused-imports": "^2.0.0"
+    "eslint-plugin-prettier": "^5.0.0",
+    "eslint-plugin-unicorn": "^48.0.1",
+    "eslint-plugin-unused-imports": "^3.0.0"
+  },
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.2.0",
+    "@typescript-eslint/parser": "^6.2.0",
+    "eslint": "^8.1.0",
+    "eslint-import-resolver-typescript": "^3.5.2",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-prettier": "^5.0.0",
+    "eslint-plugin-unicorn": "^48.0.1",
+    "eslint-plugin-unused-imports": "^3.0.0",
+    "prettier": "^3.0.0"
   }
 }

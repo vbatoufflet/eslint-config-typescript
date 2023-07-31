@@ -28,7 +28,6 @@ module.exports = {
             {selector: "typeLike", format: ["PascalCase"]},
             {selector: "variableLike", format: ["camelCase"], leadingUnderscore: "allow"},
         ],
-        "@typescript-eslint/no-duplicate-imports": "error",
         "@typescript-eslint/no-explicit-any": "off",
         "@typescript-eslint/no-unused-vars": "error",
         "@typescript-eslint/padding-line-between-statements": [
@@ -55,6 +54,6 @@ module.exports = {
             },
             {blankLine: "never", prev: ["case", "default"], next: ["case", "default"]},
         ],
-        "@typescript-eslint/sort-type-union-intersection-members": "error",
+        "@typescript-eslint/sort-type-constituents": "error",
     },
 };
